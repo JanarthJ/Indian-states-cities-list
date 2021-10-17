@@ -1,3 +1,83 @@
+const INDIAN_STATES_AND_UT_ARRAY =[
+  "Andaman and Nicobar Islands",
+  "Andhra Pradesh",
+  "Arunachal Pradesh",
+  "Assam",
+  "Bihar",
+  "Chandigarh",
+  "Chhattisgarh",
+  "Dadra and Nagar Haveli",
+  "Daman and Diu",
+  "Delhi",
+  "Goa",
+  "Gujarat",
+  "Haryana",
+  "Himachal Pradesh",
+  "Jammu and Kashmir",
+  "Jharkhand",
+  "Karnataka",
+  "Kerala",
+  "Ladakh",
+  "Lakshadweep",
+  "Madhya Pradesh",
+  "Maharashtra",
+  "Manipur",
+  "Meghalaya",
+  "Mizoram",
+  "Nagaland",
+  "Odisha",
+  "Puducherry",
+  "Punjab",
+  "Rajasthan",
+  "Sikkim",
+  "Tamil Nadu",
+  "Telangana",
+  "Tripura",
+  "Uttarakhand",
+  "Uttar Pradesh",
+  "West Bengal",
+];
+
+const STATES_OBJECT = [
+  {label: "Andaman and Nicobar Islands",value: "Andaman and Nicobar Islands",name: "AndamanandNicobar"},
+  {label: "Andhra Pradesh",value: "Andhra Pradesh",name: "AndhraPradesh"},
+  {label: "Arunachal Pradesh",value: "Arunachal Pradesh",name: "ArunachalPradesh"},
+  {label: "Assam",value: "Assam",name: "Assam"},
+  {label: "Bihar",value: "Bihar",name: "Bihar"},
+  {label: "Chandigarh",value: "Chandigarh",name: "Chandigarh"},
+  {label: "Chhattisgarh",value: "Chhattisgarh",name: "Chhattisgarh"},
+  {label: "Dadra and Nagar Haveli",value: "Dadra and Nagar Haveli",name: "DadraandNagarHaveli"},
+  {label: "Daman and Diu",value: "Daman and Diu",name: "DamanandDiu"},
+  {label: "Delhi",value: "Delhi",name: "Delhi"},
+  {label: "Goa",value: "Goa",name: "Goa"},
+  {label: "Gujarat",value: "Gujarat",name: "Gujarat"},
+  {label: "Haryana",value: "Haryana",name: "Haryana"},
+  {label: "Himachal Pradesh",value: "Himachal Pradesh",name: "HimachalPradesh"},
+  {label: "Jammu and Kashmir",value: "Jammu and Kashmir",name: "JammuandKashmir"},
+  {label: "Jharkhand",value: "Jharkhand",name: "Jharkhand"},
+  {label: "Karnataka",value: "Karnataka",name: "Karnataka"},
+  {label: "Kerala",value: "Kerala",name: "Kerala"},
+  {label: "Ladakh",value: "Ladakh",name: "Ladakh"},
+  {label: "Lakshadweep",value: "Lakshadweep",name: "Lakshadweep"},
+  {label: "Madhya Pradesh",value: "Madhya Pradesh",name: "MadhyaPradesh"},
+  {label: "Maharashtra",value: "Maharashtra",name: "Maharashtra"},
+  {label: "Manipur",value: "Manipur",name: "Manipur"},
+  {label: "Meghalaya",value: "Meghalaya",name: "Meghalaya"},
+  {label: "Mizoram",value: "Mizoram",name: "Mizoram"},
+  {label: "Nagaland",value: "Nagaland",name: "Nagaland"},
+  {label: "Odisha",value: "Odisha",name: "Odisha"},
+  {label: "Puducherry",value: "Puducherry",name: "Puducherry"},
+  {label: "Punjab",value: "Punjab",name: "Punjab"},
+  {label: "Rajasthan",value: "Rajasthan",name: "Rajasthan"},
+  {label: "Sikkim",value: "Sikkim",name: "Sikkim"},
+  {label: "Tamil Nadu",value: "Tamil Nadu",name: "Tamil Nadu"},
+  {label: "Telangana",value: "Telangana",name: "Telangana"},
+  {label: "Tripura",value: "Tripura",name: "Tripura"},
+  {label: "Uttarakhand",value: "Uttarakhand",name: "Uttarakhand"},
+  {label: "Uttar Pradesh",value: "Uttar Pradesh",name: "UttarPradesh"},
+  {label: "West Bengal",value: "West Bengal",name: "WestBengal"},
+];
+
 const STATE_WISE_CITIES = {
 AndamanandNicobar:[
     {value:"Nicobar",label:"Nicobar"},
@@ -843,4 +923,8 @@ WestBengal:[
 ]
 }
 
-module.exports = STATE_WISE_CITIES;
+module.exports.STATE_WISE_CITIES = STATE_WISE_CITIES;
+
+module.exports.STATES_OBJECT = STATES_OBJECT;
+
+module.exports.INDIAN_STATES_AND_UT_ARRAY = INDIAN_STATES_AND_UT_ARRAY;
