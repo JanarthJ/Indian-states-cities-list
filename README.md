@@ -17,7 +17,7 @@ $ npm install Indian-states-cities-list
 ```
 ## Usage
 ```
-import INDIAN_STATES_AND_UT_ARRAY from "Indian-states-cities-list";
+import STATE_WISE_CITIES from "Indian-states-cities-list";
 
 console.log(STATE_WISE_CITIES.AndamanandNicobar);
 
