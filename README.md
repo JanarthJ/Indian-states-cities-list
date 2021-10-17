@@ -2,17 +2,12 @@
 Repo consist of Indian-state array , state wise cities list
 ##Table of content
 * [Intro](#intro)
-* [LiveExample](#liveexample)
 * [Setup](#setup)
-*[Usage](#usage)
-*[Keywords](#keywords)
+* [Usage](#usage)
+
 
 ## General info
 This Package provide a list of Indian-states and state-wise cities.
-
-##LiveExample
-Demo provides How this package will intergated with State and City dropdowns.
-[LiveExample](https://codesandbox.io/s/indian-state-cities-list-quhtx)
 
 ## Setup
 Simply add this package by using
@@ -56,5 +51,3 @@ console.log(STATES_OBJECT);
 */
 
 ```
-##Keywords
-Indain-states,Cities,list,statewise-cities
