@@ -17,9 +17,9 @@ $ npm install Indian-states-cities-list
 ```
 ## Usage
 ```
-import STATE_WISE_CITIES from "Indian-states-cities-list";
+import Indian_states_cities_list from "Indian-states-cities-list";
 
-console.log(STATE_WISE_CITIES.AndamanandNicobar);
+console.log(Indian_states_cities_list.STATE_WISE_CITIES.AndamanandNicobar);
 
 //output
 /*
@@ -36,9 +36,9 @@ console.log(STATE_WISE_CITIES.AndamanandNicobar);
 ```
 
 ```
-import STATES_OBJECT from "Indian-states-cities-list";
+import Indian_states_cities_list from "Indian-states-cities-list";
 
-console.log(STATES_OBJECT);
+console.log(Indian_states_cities_list.STATES_OBJECT);
 
 //output
 /*
