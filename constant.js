@@ -70,7 +70,7 @@ const STATES_OBJECT = [
   {label: "Punjab",value: "Punjab",name: "Punjab"},
   {label: "Rajasthan",value: "Rajasthan",name: "Rajasthan"},
   {label: "Sikkim",value: "Sikkim",name: "Sikkim"},
-  {label: "Tamil Nadu",value: "Tamil Nadu",name: "Tamil Nadu"},
+  {label: "Tamil Nadu",value: "Tamil Nadu",name: "TamilNadu"},
   {label: "Telangana",value: "Telangana",name: "Telangana"},
   {label: "Tripura",value: "Tripura",name: "Tripura"},
   {label: "Uttarakhand",value: "Uttarakhand",name: "Uttarakhand"},
